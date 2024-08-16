@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./auth0-python-sdk.css" rel="stylesheet" />
+
+      <div class="auth0-python-sdk-container">
+        <div class="auth0-python-sdk-auth0-python-sdk">
+          <div class="auth0-python-sdk-frame2147226382">
+            <div class="auth0-python-sdk-frame2147226383">
+              <div class="auth0-python-sdk-heading1">
+                <span class="auth0-python-sdk-text100 H1Bold">
+                  <span>
+                    Integration of User Authentication with the Auth0 Python SDK
+                  </span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-sub-heading1">
+                <span class="auth0-python-sdk-text102 H6Medium">
+                  <span>
+                    A Comprehensive Guide to Secure Authentication in Python
+                    Applications
+                  </span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-sub-heading2">
+                <span class="auth0-python-sdk-text104">
+                  <span>
+                    Authentication is a crucial aspect of any modern
+                    application, ensuring that only authorized users can access
+                    certain resources. Auth0 offers a powerful and flexible
+                    solution for authentication and authorization, and its
+                    Python SDK simplifies the integration process for Python
+                    applications. This guide provides an in-depth look at using
+                    the Auth0 Python SDK to implement secure authentication,
+                    with practical examples and best practices.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <img
+              src="public/external/line12002-1l59.svg"
+              alt="Line12002"
+              class="auth0-python-sdk-line1"
+            />
+            <div class="auth0-python-sdk-frame2147226376">
+              <div class="auth0-python-sdk-subheading1">
+                <span class="auth0-python-sdk-text106 H4SemiBold">
+                  <span>Setting Up Your Auth0 Account</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame21472263751">
+                <div class="auth0-python-sdk-heading2">
+                  <span class="auth0-python-sdk-text108">
+                    <span class="auth0-python-sdk-text109">
+                      Create an Auth0 Account
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text111"></span>
+                    <span class="auth0-python-sdk-text112">
+                      Sign Up: Start by signing up at Auth0.
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text114">
+                      Create a New Tenant: Once signed in, create a new tenant
+                      and configure your domain.
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text116"></span>
+                    <span class="auth0-python-sdk-text117">
+                      Register Your Application
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text119"></span>
+                    <span class="auth0-python-sdk-text120">
+                      Create a New Application: In the Auth0 dashboard, navigate
+                      to the "Applications" section and create a new
+                      application, choosing "Regular Web Application" as the
+                      application type.
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text122">
+                      Note Client ID and Client Secret: Make sure to note down
+                      the Client ID and Client Secret for later use.
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text124"></span>
+                    <span class="auth0-python-sdk-text125">
+                      Configure Application Settings
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text127"></span>
+                    <span>
+                      Set Callback URLs: Define the callback URLs that Auth0
+                      will redirect to after authentication.
+                    </span>
+                    <br />
+                    <span>
+                      Define Logout URLs: Specify allowed logout URLs to enhance
+                      security.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="auth0-python-sdk-frame2147226384">
+              <div class="auth0-python-sdk-subheading2">
+                <span class="auth0-python-sdk-text131 H4SemiBold">
+                  <span>Installing the Auth0 Python SDK</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame21472263752">
+                <div class="auth0-python-sdk-heading3">
+                  <span class="auth0-python-sdk-text133">
+                    <span>
+                      To get started with the Auth0 Python SDK, you first need
+                      to install the package using pip:
+                    </span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-code-card1">
+                  <div class="auth0-python-sdk-frame21472263731">
+                    <div class="auth0-python-sdk-frame21472263741">
+                      <img
+                        src="public/external/iconoirterminal2002-brdd.svg"
+                        alt="iconoirterminal2002"
+                        class="auth0-python-sdk-iconoirterminal1"
+                      />
+                      <span class="auth0-python-sdk-text135 BodyRegularxsmall">
+                        <span>bash</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="auth0-python-sdk-code1">
+                    <span class="auth0-python-sdk-text137">
+                      <span>pip install auth0-python</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-a68r-200w.png"
+                    alt="Rectangle40292002"
+                    class="auth0-python-sdk-rectangle40291"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="auth0-python-sdk-frame2147226385">
+              <div class="auth0-python-sdk-subheading3">
+                <span class="auth0-python-sdk-text139 H4SemiBold">
+                  <span>Setting Up Authentication with Auth0</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame21472263753">
+                <div class="auth0-python-sdk-heading4">
+                  <span class="auth0-python-sdk-text141">
+                    <span>Initialize the Auth0 Client</span>
+                    <br />
+                    <span>
+                      Configure the SDK in your application to initialize the
+                      Auth0 client:
+                    </span>
+                    <br />
+                    <span></span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-code-card2">
+                  <div class="auth0-python-sdk-frame21472263732">
+                    <div class="auth0-python-sdk-frame21472263742">
+                      <img
+                        src="public/external/iconoirterminal2002-mz4i.svg"
+                        alt="iconoirterminal2002"
+                        class="auth0-python-sdk-iconoirterminal2"
+                      />
+                      <span class="auth0-python-sdk-text147 BodyRegularxsmall">
+                        <span>python</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="auth0-python-sdk-code2">
+                    <span class="auth0-python-sdk-text149">
+                      <span>from auth0.v3.authentication import GetToken</span>
+                      <br />
+                      <span>from auth0.v3.management import Auth0</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>domain = 'your-auth0-domain'</span>
+                      <br />
+                      <span>client_id = 'your-client-id'</span>
+                      <br />
+                      <span>client_secret = 'your-client-secret'</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>get_token = GetToken(domain)</span>
+                      <br />
+                      <span>
+                        token = get_token.client_credentials(client_id,
+                        client_secret, f'https://{domain}/api/v2/')
+                      </span>
+                      <br />
+                      <span>auth0 = Auth0(domain, token['access_token'])</span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-3e0h-200w.png"
+                    alt="Rectangle40292002"
+                    class="auth0-python-sdk-rectangle40292"
+                  />
+                </div>
+                <div class="auth0-python-sdk-subtext10">
+                  <span class="auth0-python-sdk-text171">
+                    <span class="auth0-python-sdk-text172">
+                      Redirecting to Auth0 Login
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text174"></span>
+                    <span></span>
+                    <br />
+                    <span>
+                      To initiate the login process, redirect users to the Auth0
+                      login page:
+                    </span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-code-card3">
+                  <div class="auth0-python-sdk-frame21472263733">
+                    <div class="auth0-python-sdk-frame21472263743">
+                      <img
+                        src="public/external/iconoirterminal2002-mv9b.svg"
+                        alt="iconoirterminal2002"
+                        class="auth0-python-sdk-iconoirterminal3"
+                      />
+                      <span class="auth0-python-sdk-text178 BodyRegularxsmall">
+                        <span>Index.js</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="auth0-python-sdk-code3">
+                    <span class="auth0-python-sdk-text180">
+                      <span>from flask import Flask, redirect, url_for</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>app = Flask(__name__)</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@app.route('/login')</span>
+                      <br />
+                      <span>def login():</span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return
+                        redirect(f"https://{domain}/authorize?response_type=code&amp;client_id={client_id}&amp;redirect_uri={url_for('callback',
+                        _external=True)}")
+                      </span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@app.route('/callback')</span>
+                      <br />
+                      <span>def callback():</span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;# Handle the callback from Auth0
+                      </span>
+                      <br />
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;pass</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>if __name__ == '__main__':</span>
+                      <br />
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;app.run()</span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-ht9p-200w.png"
+                    alt="Rectangle40292002"
+                    class="auth0-python-sdk-rectangle40293"
+                  />
+                </div>
+                <div class="auth0-python-sdk-subtext11">
+                  <span class="auth0-python-sdk-text212">
+                    <span class="auth0-python-sdk-text213">
+                      Handling the Callback
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text215"></span>
+                    <span></span>
+                    <br />
+                    <span>
+                      After a user logs in, Auth0 will redirect them back to
+                      your application. You need to handle this callback and
+                      exchange the authorization code for an access token:
+                    </span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-code-card4">
+                  <div class="auth0-python-sdk-frame21472263734">
+                    <div class="auth0-python-sdk-frame21472263744">
+                      <img
+                        src="public/external/iconoirterminal2002-cp6.svg"
+                        alt="iconoirterminal2002"
+                        class="auth0-python-sdk-iconoirterminal4"
+                      />
+                      <span class="auth0-python-sdk-text219 BodyRegularxsmall">
+                        <span>python</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="auth0-python-sdk-code4">
+                    <span class="auth0-python-sdk-text221">
+                      <span>from flask import request, jsonify</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@app.route('/callback')</span>
+                      <br />
+                      <span>def callback():</span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;code = request.args.get('code')
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;token_info =
+                        get_token.authorization_code(client_id, client_secret,
+                        code, url_for('callback', _external=True))
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;access_token =
+                        token_info['access_token']
+                      </span>
+                      <br />
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;# Use the access token to get
+                        user info
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;user_info =
+                        auth0.users(token=access_token).get()
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return jsonify(user_info)
+                      </span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-yzxm-200w.png"
+                    alt="Rectangle40292002"
+                    class="auth0-python-sdk-rectangle40294"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="auth0-python-sdk-frame2147226387">
+              <div class="auth0-python-sdk-subheading4">
+                <span class="auth0-python-sdk-text245 H4SemiBold">
+                  <span>Implementing Secure Routes</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame21472263754">
+                <div class="auth0-python-sdk-heading5">
+                  <span class="auth0-python-sdk-text247">
+                    <span>
+                      To protect specific routes in your application, you can
+                      use a decorator to ensure that users are authenticated:
+                    </span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-code-card5">
+                  <div class="auth0-python-sdk-frame21472263735">
+                    <div class="auth0-python-sdk-frame21472263745">
+                      <img
+                        src="public/external/iconoirterminal2002-i2z.svg"
+                        alt="iconoirterminal2002"
+                        class="auth0-python-sdk-iconoirterminal5"
+                      />
+                      <span class="auth0-python-sdk-text249 BodyRegularxsmall">
+                        <span>python</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="auth0-python-sdk-code5">
+                    <span class="auth0-python-sdk-text251">
+                      <span>from functools import wraps</span>
+                      <br />
+                      <span>from flask import request, redirect, url_for</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>def requires_auth(f):</span>
+                      <br />
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;@wraps(f)</span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;def decorated(*args, **kwargs):
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;access_token
+                        = request.cookies.get('access_token')
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if not
+                        access_token:
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return
+                        redirect(url_for('login'))
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return
+                        f(*args, **kwargs)
+                      </span>
+                      <br />
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;return decorated</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@app.route('/dashboard')</span>
+                      <br />
+                      <span>@requires_auth</span>
+                      <br />
+                      <span>def dashboard():</span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return "Welcome to your
+                        dashboard!"
+                      </span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-my4e-200w.png"
+                    alt="Rectangle40292002"
+                    class="auth0-python-sdk-rectangle40295"
+                  />
+                </div>
+                <div class="auth0-python-sdk-subtext12">
+                  <span class="auth0-python-sdk-text285">
+                    <span class="auth0-python-sdk-text286">
+                      Refreshing Tokens
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text288"></span>
+                    <span></span>
+                    <br />
+                    <span>
+                      Tokens have a limited lifespan and must be refreshed
+                      periodically to maintain user sessions. Auth0 provides a
+                      refresh token to obtain a new access token without
+                      requiring the user to log in again:
+                    </span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-code-card6">
+                  <div class="auth0-python-sdk-frame21472263736">
+                    <div class="auth0-python-sdk-frame21472263746">
+                      <img
+                        src="public/external/iconoirterminal2002-vee.svg"
+                        alt="iconoirterminal2002"
+                        class="auth0-python-sdk-iconoirterminal6"
+                      />
+                      <span class="auth0-python-sdk-text292 BodyRegularxsmall">
+                        <span>python</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="auth0-python-sdk-code6">
+                    <span class="auth0-python-sdk-text294">
+                      <span>refresh_token = 'your-refresh-token'</span>
+                      <br />
+                      <span>
+                        new_token_info = get_token.refresh_token(client_id,
+                        client_secret, refresh_token)
+                      </span>
+                      <br />
+                      <span>
+                        new_access_token = new_token_info['access_token']
+                      </span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-vdfm-200w.png"
+                    alt="Rectangle40292002"
+                    class="auth0-python-sdk-rectangle40296"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="auth0-python-sdk-frame2147226388">
+              <div class="auth0-python-sdk-subheading5">
+                <span class="auth0-python-sdk-text302 H4SemiBold">
+                  <span>Advanced Customization</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame21472263755">
+                <div class="auth0-python-sdk-heading6">
+                  <span class="auth0-python-sdk-text304">
+                    <span class="auth0-python-sdk-text305">
+                      Adding Roles and Permissions
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text307"></span>
+                    <span></span>
+                    <br />
+                    <span>
+                      Auth0 allows you to define roles and permissions for
+                      fine-grained access control:
+                    </span>
+                    <br />
+                    <span></span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-subtext13">
+                  <span class="auth0-python-sdk-text313">
+                    <span>First, install the necessary packages:</span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-code-card7">
+                  <div class="auth0-python-sdk-frame21472263737">
+                    <div class="auth0-python-sdk-frame21472263747">
+                      <img
+                        src="public/external/iconoirterminal2002-4isz.svg"
+                        alt="iconoirterminal2002"
+                        class="auth0-python-sdk-iconoirterminal7"
+                      />
+                      <span class="auth0-python-sdk-text315 BodyRegularxsmall">
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="auth0-python-sdk-copy"></div>
+                  </div>
+                  <div class="auth0-python-sdk-code7">
+                    <span class="auth0-python-sdk-text317">
+                      <span>
+                        auth0.roles.create({'name': 'admin', 'description':
+                        'Administrator role'})
+                      </span>
+                      <br />
+                      <span>
+                        auth0.permissions.assign_users('role_id', {'users':
+                        ['user_id']})
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-ag8r-200w.png"
+                    alt="Rectangle40292002"
+                    class="auth0-python-sdk-rectangle40297"
+                  />
+                </div>
+                <div class="auth0-python-sdk-subtext14">
+                  <span class="auth0-python-sdk-text321">
+                    <span class="auth0-python-sdk-text322">
+                      Customizing the Auth0 Login Page
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text324"></span>
+                    <span></span>
+                    <br />
+                    <span>
+                      To match your application's branding, you can customize
+                      the Auth0 hosted login page:
+                    </span>
+                    <br />
+                    <span>Go to the Auth0 dashboard.</span>
+                    <br />
+                    <span>
+                      Navigate to "Universal Login" and enable "Customize Login
+                      Page."
+                    </span>
+                    <br />
+                    <span>
+                      Edit the HTML, CSS, and JavaScript to suit your needs.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="auth0-python-sdk-frame2147226389">
+              <div class="auth0-python-sdk-subheading6">
+                <span class="auth0-python-sdk-text334 H4SemiBold">
+                  <span>Best Practices</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame21472263756">
+                <div class="auth0-python-sdk-heading7">
+                  <span class="auth0-python-sdk-text336">
+                    <span>
+                      Securely Store Secrets: Use environment variables or a
+                      secrets management service to store sensitive information
+                      like Client IDs and Secrets.
+                    </span>
+                    <br />
+                    <span>
+                      Validate Tokens: Always validate tokens on the server side
+                      to ensure their integrity and authenticity.
+                    </span>
+                    <br />
+                    <span>
+                      Log and Monitor: Implement logging and monitoring to track
+                      authentication activities and detect potential security
+                      issues.
+                    </span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-subtext15">
+                  <div class="auth0-python-sdk-subheading7">
+                    <span class="auth0-python-sdk-text342 H4SemiBold">
+                      <span>Error Handling and Debugging</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="auth0-python-sdk-subtext16">
+                  <span class="auth0-python-sdk-text344">
+                    <span class="auth0-python-sdk-text345">
+                      Handling errors aptly is crucial for a seamless user
+                      experience. Here are some tips:
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text347">
+                      Invalid Credentials: Double-check the client ID, client
+                      secret, and domain configuration.
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text349">
+                      Token Expiry: Implement token refresh logic to maintain
+                      user sessions.
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text351">
+                      Network Issues: Use retries and fallbacks for
+                      network-related errors.
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text353"></span>
+                    <br />
+                    <span class="auth0-python-sdk-text355"></span>
+                    <span class="auth0-python-sdk-text356">
+                      Testing Your Implementation
+                    </span>
+                    <br />
+                    <span class="auth0-python-sdk-text358"></span>
+                    <span class="auth0-python-sdk-text359"></span>
+                    <br />
+                    <span class="auth0-python-sdk-text361">Unit Tests</span>
+                    <br />
+                    <span class="auth0-python-sdk-text363"></span>
+                    <br />
+                    <span class="auth0-python-sdk-text365"></span>
+                    <span>
+                      Writing unit tests for authentication flows ensures
+                      reliability and security:
+                    </span>
+                    <br />
+                    <span></span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-code-card8">
+                  <div class="auth0-python-sdk-frame21472263738">
+                    <div class="auth0-python-sdk-frame21472263748">
+                      <img
+                        src="public/external/iconoirterminal2002-kr0c.svg"
+                        alt="iconoirterminal2002"
+                        class="auth0-python-sdk-iconoirterminal8"
+                      />
+                      <span class="auth0-python-sdk-text369 BodyRegularxsmall">
+                        <span>python</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="auth0-python-sdk-code8">
+                    <span class="auth0-python-sdk-text371">
+                      <span>import unittest</span>
+                      <br />
+                      <span>from your_app import app</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>class AuthTests(unittest.TestCase):</span>
+                      <br />
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;def test_login(self):</span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;response
+                        = app.test_client().post('/login',
+                        data=dict(username='test', password='test'))
+                      </span>
+                      <br />
+                      <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.assertEqual(response.status_code,
+                        200)
+                      </span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>if __name__ == '__main__':</span>
+                      <br />
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;unittest.main()</span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-b32i-200w.png"
+                    alt="Rectangle40292002"
+                    class="auth0-python-sdk-rectangle40298"
+                  />
+                </div>
+                <div class="auth0-python-sdk-subtext17">
+                  <span class="auth0-python-sdk-text393">
+                    <span>Integration Tests</span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-subtext18">
+                  <span class="auth0-python-sdk-text395">
+                    <span>
+                      Use tools like Postman or Insomnia to test API endpoints
+                      and authentication flows.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="auth0-python-sdk-frame2147226381">
+              <div class="auth0-python-sdk-subheading8">
+                <span class="auth0-python-sdk-text397 H4SemiBold">
+                  <span>Conclusion</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame21472263757">
+                <div class="auth0-python-sdk-subtext19">
+                  <span class="auth0-python-sdk-text399">
+                    <span>
+                      Integrating Auth0 into your Python application enhances
+                      security and simplifies user authentication. With features
+                      like easy integration, robust security, and extensive
+                      customization, Auth0 is a powerful tool for managing user
+                      identities. By following the steps and best practices
+                      outlined in this guide, you can implement secure and
+                      efficient authentication in your Python applications. For
+                      further learning, explore the Auth0 documentation and join
+                      the community forums for support.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="auth0-python-sdk-frame1000001687">
+            <div class="auth0-python-sdk-unauthenticated-navbar">
+              <div class="auth0-python-sdk-hng-boilerplate-logo1">
+                <div class="auth0-python-sdk-group41">
+                  <span class="auth0-python-sdk-text401"><span>[ ]</span></span>
+                  <img
+                    src="public/external/mdikettlei2002-s6ds.svg"
+                    alt="mdikettleI2002"
+                    class="auth0-python-sdk-mdikettle1"
+                  />
+                </div>
+                <span class="auth0-python-sdk-text403 H3SemiBold">
+                  <span>HNG Boilerplate</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-links1">
+                <div class="auth0-python-sdk-links2">
+                  <span class="auth0-python-sdk-text405 Paragraph2Medium">
+                    <span>Home</span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-links3">
+                  <span class="auth0-python-sdk-text407 Paragraph2Medium">
+                    <span>Pricing</span>
+                  </span>
+                </div>
+                <div class="auth0-python-sdk-links4">
+                  <span class="auth0-python-sdk-text409 Paragraph2Medium">
+                    <span>Features</span>
+                  </span>
+                </div>
+              </div>
+              <button class="auth0-python-sdk-buttons1"></button>
+              <button class="auth0-python-sdk-button1">
+                <span class="auth0-python-sdk-text411 bodyMedium">
+                  <span>Log In</span>
+                </span>
+              </button>
+              <button class="auth0-python-sdk-button2">
+                <span class="auth0-python-sdk-text413 bodyMedium">
+                  <span>Get Started</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="auth0-python-sdk-bread-crumb">
+            <div class="auth0-python-sdk-breadcrumb">
+              <div class="auth0-python-sdk-item">
+                <div class="auth0-python-sdk-link">
+                  <span class="auth0-python-sdk-text415">
+                    <span>Help</span>
+                  </span>
+                </div>
+                <img
+                  src="public/external/framei2002-37g7.svg"
+                  alt="FrameI2002"
+                  class="auth0-python-sdk-frame"
+                />
+              </div>
+              <div class="auth0-python-sdk-item-link">
+                <span class="auth0-python-sdk-text417">
+                  <span>Auth0 Python SDK</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="auth0-python-sdk-content">
+            <span class="auth0-python-sdk-text419 H6Regular">
+              <span>Introduction</span>
+            </span>
+            <span class="auth0-python-sdk-text421">
+              <span>Setting Up Your Auth0 Account</span>
+            </span>
+            <span class="auth0-python-sdk-text423">
+              <span>Installing the Auth0 Python SDK</span>
+            </span>
+            <span class="auth0-python-sdk-text425">
+              <span>Setting Up Authentication with Auth0</span>
+            </span>
+            <span class="auth0-python-sdk-text427">
+              <span>Setting Up Authentication with Auth0</span>
+            </span>
+            <span class="auth0-python-sdk-text429">
+              <span>Implementing Secure Routes</span>
+            </span>
+            <span class="auth0-python-sdk-text431">
+              <span>Refreshing Tokens</span>
+            </span>
+            <span class="auth0-python-sdk-text433">
+              <span>Advanced Customization</span>
+            </span>
+            <span class="auth0-python-sdk-text435">
+              <span>Best Practices</span>
+            </span>
+            <span class="auth0-python-sdk-text437">
+              <span>Error Handling and Debugging</span>
+            </span>
+            <span class="auth0-python-sdk-text439">
+              <span>Testing Your Implementation</span>
+            </span>
+            <span class="auth0-python-sdk-text441">
+              <span>Conclusion</span>
+            </span>
+          </div>
+          <div class="auth0-python-sdk-frame2147226215">
+            <div class="auth0-python-sdk-lightmooddesktopfooter">
+              <span class="auth0-python-sdk-text443 H5SemiBold">
+                <span>Navigation</span>
+              </span>
+              <span class="auth0-python-sdk-text445 H5SemiBold">
+                <span>Support</span>
+              </span>
+              <span class="auth0-python-sdk-text447 H5Bold">
+                <span>Legal</span>
+              </span>
+              <div class="auth0-python-sdk-frame53075">
+                <span class="auth0-python-sdk-text449 H6Regular">
+                  <span>Home</span>
+                </span>
+                <span class="auth0-python-sdk-text451 H6Regular">
+                  <span>About us</span>
+                </span>
+                <span class="auth0-python-sdk-text453 H6Regular">
+                  <span>Careers</span>
+                </span>
+                <span class="auth0-python-sdk-text455 H6Regular">
+                  <span>Feature updates</span>
+                </span>
+                <span class="auth0-python-sdk-text457 H6Regular">
+                  <span>Blog</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame53076">
+                <span class="auth0-python-sdk-text459 H6Regular">
+                  <span>Help Center</span>
+                </span>
+                <span class="auth0-python-sdk-text461 H6Regular">
+                  <span>FAQ</span>
+                </span>
+                <span class="auth0-python-sdk-text463 H6Regular">
+                  <span>Waiting list</span>
+                </span>
+                <span class="auth0-python-sdk-text465 H6Regular">
+                  <span>Pricing Experience</span>
+                </span>
+                <span class="auth0-python-sdk-text467 H6Regular">
+                  <span>Contact Us</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame53077">
+                <span class="auth0-python-sdk-text469 H6Regular">
+                  <span>Privacy Policy</span>
+                </span>
+                <span class="auth0-python-sdk-text471 H6Regular">
+                  <span>Terms and condition</span>
+                </span>
+              </div>
+              <span class="auth0-python-sdk-text473">
+                <span>Sign Up For Newsletter</span>
+              </span>
+              <div class="auth0-python-sdk-frame53036">
+                <div class="auth0-python-sdk-frame53034">
+                  <span class="auth0-python-sdk-text475">
+                    <span>Enter Email</span>
+                  </span>
+                  <button class="auth0-python-sdk-buttons2">
+                    <span class="auth0-python-sdk-text477 bodyMedium1">
+                      <span>Subscribe</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="public/external/vector1i2002-e0g.svg"
+                alt="Vector1I2002"
+              />
+              <span class="auth0-python-sdk-text479 BodyMediumsmall">
+                <span>Privacy Policy</span>
+              </span>
+              <span class="auth0-python-sdk-text481 BodyMediumsmall">
+                <span>Terms of Use</span>
+              </span>
+              <div class="auth0-python-sdk-frame53044">
+                <div class="auth0-python-sdk-tablercopyright">
+                  <div class="auth0-python-sdk-group1">
+                    <img
+                      src="public/external/vectori2002-h6mm.svg"
+                      alt="VectorI2002"
+                      class="auth0-python-sdk-vector1"
+                    />
+                    <img
+                      src="public/external/vectori2002-ki9.svg"
+                      alt="VectorI2002"
+                      class="auth0-python-sdk-vector2"
+                    />
+                  </div>
+                </div>
+                <span class="auth0-python-sdk-text483">
+                  <span>2024 All Rights Reserved</span>
+                </span>
+              </div>
+              <div class="auth0-python-sdk-frame53043">
+                <div class="auth0-python-sdk-frame53037">
+                  <div class="auth0-python-sdk-primetwitter">
+                    <div class="auth0-python-sdk-group2">
+                      <div class="auth0-python-sdk-clippathgroup">
+                        <div class="auth0-python-sdk-prime-twitter0">
+                          <img
+                            src="public/external/vectori2002-eyfw.svg"
+                            alt="VectorI2002"
+                            class="auth0-python-sdk-vector3"
+                          />
+                        </div>
+                        <div class="auth0-python-sdk-group3">
+                          <img
+                            src="public/external/vectori2002-oes.svg"
+                            alt="VectorI2002"
+                            class="auth0-python-sdk-vector4"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="auth0-python-sdk-frame53039">
+                  <img
+                    src="public/external/mdiyoutubei2002-0ca.svg"
+                    alt="mdiyoutubeI2002"
+                    class="auth0-python-sdk-mdiyoutube"
+                  />
+                </div>
+                <div class="auth0-python-sdk-frame53040">
+                  <img
+                    src="public/external/mdiinstagrami2002-itmz.svg"
+                    alt="mdiinstagramI2002"
+                    class="auth0-python-sdk-mdiinstagram"
+                  />
+                </div>
+                <img
+                  src="public/external/frame53041i2002-1tcf.svg"
+                  alt="Frame53041I2002"
+                  class="auth0-python-sdk-frame530411"
+                />
+                <div class="auth0-python-sdk-frame530412">
+                  <img
+                    src="public/external/rifacebookfilli2002-guxq.svg"
+                    alt="rifacebookfillI2002"
+                    class="auth0-python-sdk-rifacebookfill"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="auth0-python-sdk-group1000006011">
+              <span class="auth0-python-sdk-text485 BodyMediumsmall">
+                <span>10111, Hornchurch, London, United Kingdom</span>
+              </span>
+              <div class="auth0-python-sdk-frame1171275266">
+                <div class="auth0-python-sdk-hng-boilerplate-logo2">
+                  <div class="auth0-python-sdk-group42">
+                    <span class="auth0-python-sdk-text487">
+                      <span>[ ]</span>
+                    </span>
+                    <img
+                      src="public/external/mdikettlei2002-vqz9.svg"
+                      alt="mdikettleI2002"
+                      class="auth0-python-sdk-mdikettle2"
+                    />
+                  </div>
+                  <span class="auth0-python-sdk-text489 H4SemiBold">
+                    <span>HNG Boilerplate</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
